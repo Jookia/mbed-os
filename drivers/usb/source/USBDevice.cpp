@@ -53,7 +53,7 @@
 #if defined(MAX_PACKET_SIZE_EP0)
 #undef MAX_PACKET_SIZE_EP0
 #endif
-#define MAX_PACKET_SIZE_EP0 64
+#define MAX_PACKET_SIZE_EP0 512
 
 #define USB_MIN(a, b) ((a) > (b) ? (b) : (a))
 

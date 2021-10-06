@@ -249,8 +249,8 @@ private:
     // endpoints
     usb_ep_t _bulk_in;
     usb_ep_t _bulk_out;
-    uint8_t _bulk_in_buf[64];
-    uint8_t _bulk_out_buf[64];
+    uint8_t _bulk_in_buf[512];
+    uint8_t _bulk_out_buf[512];
     bool _out_ready;
     bool _in_ready;
     uint32_t _bulk_out_size;
