@@ -56,7 +56,7 @@
 #define DEFAULT_CONFIGURATION (1)
 
 // max packet size
-#define MAX_PACKET  64
+#define MAX_PACKET  512
 
 // CSW Status
 enum Status {
